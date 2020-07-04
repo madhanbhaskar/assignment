@@ -1,0 +1,71 @@
+<style>
+
+      *{
+      	box-sizing: border-box;
+      	
+      }
+	body{
+		background-color:grey;
+		font-style: #34AC56;
+		font-color:red;
+	}
+
+	.black{
+		colour:black;
+	}
+
+	div{
+		position:relative;
+		float:left;
+		
+	}
+
+	h3{
+		color:red;
+		position: absolute;
+		margin:3px;
+		border:5px thick blue;
+		top:0;
+		right:0;
+		border:1px thin blue;
+		float:left;
+	}
+
+
+	@media (min-width:992px)
+	{
+		div{
+		width:33.3%;
+		border:3px solid blue;
+		margin:1px;
+		padding:2px;
+		float:left;
+	}
+	}
+
+	@media (min-width:768px) and (max-width:991px)
+	{
+		div{
+		width:50%;
+		border:3px solid blue;
+		margin:1px;
+		padding:2px;
+		float:left;
+		
+		
+	}
+	}
+
+	@media (max-width:767px)
+	{div
+		{
+			width:100%;
+			border:3px solid blue;
+		margin:1px
+		padding:2px;
+		float:left;
+		
+		}
+	}
+
+</style>
