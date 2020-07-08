@@ -2,7 +2,7 @@
 
       *{
       	box-sizing:border-box;
-      	
+      	margin:0px;
       	
       }
 	body{
@@ -57,7 +57,7 @@
 	}
 	
 	.col_ld_1{
-		width:33.3%;
+		width:33%;
 	}
 }
 	@media (min-width:768px) and (max-width:991px)
