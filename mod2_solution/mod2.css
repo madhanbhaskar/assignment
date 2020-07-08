@@ -10,10 +10,15 @@
 		font-style: #34AC56;
 		font-color:red;
 	}
+
+	h6{
+		width:90%;
+	}
 	
 		.row
 		{
 			width: 100%;
+
 
 		}
 	.mad{
@@ -46,13 +51,13 @@
 
         float:left;
 		border:1px solid blue;
-	
+	    margin:2px;
 	
   		text-align: center;
 	}
 	
 	.col_ld_1{
-		width:33%;
+		width:32%;
 	}
 }
 	@media (min-width:768px) and (max-width:991px)
@@ -62,12 +67,14 @@
 		
 		float:left;
 		border:1px solid blue;
+		 margin:2px;
+	
 		
 		text-align: center;
 	
 	}
 	.col_md_1{
-		width:50%;
+		width:49%;
 	}
 }
 	@media (max-width:767px)
@@ -75,7 +82,8 @@
 		{
 		    float:left;
 			border:1px solid blue;
-		 
+		  margin:2px;
+	
 		text-align: center;
 		
 		}
