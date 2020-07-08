@@ -1,7 +1,8 @@
 <style>
 
       *{
-      	box-sizing: border-box;
+      	box-sizing:border-box;
+      	margin:0px;
       	
       }
 	body{
@@ -9,63 +10,79 @@
 		font-style: #34AC56;
 		font-color:red;
 	}
+	
+		.row
+		{
+			width: 100%;
+
+		}
+	.mad{
+		border:3px solid black;
+	}
 
 	.black{
-		colour:black;
+		color:black;
 	}
 
 	div{
 		position:relative;
-		float:left;
+		}
 		
-	}
+	
 
 	h3{
 		color:red;
 		position: absolute;
-		margin:3px;
-		border:5px thick blue;
+		margin:0px;
 		top:0;
 		right:0;
-		border:1px thin blue;
+		
 		float:left;
 	}
 
 
 	@media (min-width:992px)
-	{
-		div{
-		width:33.3%;
-		border:3px solid blue;
-		margin:1px;
-		padding:2px;
-		float:left;
-	}
-	}
+	{   .col_ld_1{
 
+        float:left;
+		border:1px solid blue;
+	
+	
+  		text-align: center;
+	}
+	
+	.col_ld_1{
+		width:33%;
+	}
+}
 	@media (min-width:768px) and (max-width:991px)
 	{
-		div{
+		
+			 .col_md_1{
+		
+		float:left;
+		border:1px solid blue;
+		
+		text-align: center;
+	
+	}
+	.col_md_1{
 		width:50%;
-		border:3px solid blue;
-		margin:1px;
-		padding:2px;
-		float:left;
-		
-		
 	}
-	}
-
+}
 	@media (max-width:767px)
-	{div
+	{ .col_sd_1
 		{
-			width:100%;
-			border:3px solid blue;
-		margin:1px
-		padding:2px;
-		float:left;
+		    float:left;
+			border:1px solid blue;
+		 
+		text-align: center;
 		
 		}
+	
+	.col_sd_1{
+		width:100%;
 	}
+}
 
 </style>
